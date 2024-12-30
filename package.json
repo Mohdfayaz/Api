@@ -1,0 +1,29 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "To learn api",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mohdfayaz/Api.git"
+  },
+  "author": "Mohammed Fayaz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mohdfayaz/Api/issues"
+  },
+  "homepage": "https://github.com/Mohdfayaz/Api#readme",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "express": "^4.21.2",
+    "mongoose": "^8.9.2",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
